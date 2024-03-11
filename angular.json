@@ -80,10 +80,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "i18n-receipt-demo:build:production"
+              "buildTarget": "i18n-receipt-demo:build:production"
             },
             "development": {
-              "browserTarget": "i18n-receipt-demo:build:development"
+              "buildTarget": "i18n-receipt-demo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -91,7 +91,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "i18n-receipt-demo:build"
+            "buildTarget": "i18n-receipt-demo:build"
           }
         },
         "test": {
